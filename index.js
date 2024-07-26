@@ -50,7 +50,7 @@ const makeCommits = async (n) => {
   const x = random.int(0, 52); // 52 weeks in a year
   const y = random.int(0, 6);  // Days of the week
 
-  const date = moment("2017-01-01") // Start from January 1st, 2017
+  const date = moment("2024-01-01") // Start from January 1st, 2017
     .add(x, "w")
     .add(y, "d")
     .format();
@@ -71,4 +71,4 @@ const makeCommits = async (n) => {
   await makeCommits(--n);
 };
 
-makeCommits(10);
+makeCommits(100);
