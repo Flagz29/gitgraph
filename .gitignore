@@ -1,0 +1,33 @@
+# Node.js dependencies
+node_modules/
+
+# Compiled files
+*.log
+*.tsbuildinfo
+
+# Test results
+coverage/
+reports/
+
+# IDE files
+.vscode/
+*.suo
+*.ntvs.json
+*.user
+*.tmp
+*.db*
+db.sqlite
+*.local.db
+*.ini$
+*.bak
+*.swp
+*.syncignore
+.DS_Store
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Local configuration
+local.settings.json
+config.local.json
